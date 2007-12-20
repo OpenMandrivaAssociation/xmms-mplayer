@@ -42,6 +42,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(-,root,root,0755)
 %doc README AUTHORS COPYING
-%{_libdir}/xmms/Input/*.so
+%{_libdir}/xmms/Input/*
 
 
