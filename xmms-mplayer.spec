@@ -1,12 +1,12 @@
 %define name xmms-mplayer
 %define version 0.3.3
-%define release %mkrel 9
+%define release %mkrel 10
 
 Name: %{name}
 Summary: An input plug-in for XMMS that plays videos using MPlayer
 Version: %{version}
 Release: %{release}
-License: GPL
+License: GPLv2+
 Group: Video
 Source0: http://thegraveyard.org/files/xmmplayer-%{version}.tar.bz2
 URL: http://thegraveyard.org/xmmplayer.php
@@ -21,6 +21,7 @@ files from within XMMS using MPlayer as a back-end.
 
 %prep
 %setup -q -n xmmplayer-%{version}
+libtoolize --install --force
 aclocal-1.8
 autoconf
 automake-1.8
