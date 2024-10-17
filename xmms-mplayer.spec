@@ -9,7 +9,7 @@ Release: %{release}
 License: GPLv2+
 Group: Video
 Source0: http://thegraveyard.org/files/xmmplayer-%{version}.tar.bz2
-URL: http://thegraveyard.org/xmmplayer.php
+URL: https://thegraveyard.org/xmmplayer.php
 BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires:	libxmms-devel
 BuildRequires:  automake1.8
