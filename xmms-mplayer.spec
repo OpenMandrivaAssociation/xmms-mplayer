@@ -11,6 +11,9 @@ Group: Video
 Source0: http://thegraveyard.org/files/xmmplayer-%{version}.tar.bz2
 URL: https://thegraveyard.org/xmmplayer.php
 BuildRoot: %{_tmppath}/%{name}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
 BuildRequires:	libxmms-devel
 BuildRequires:  automake1.8
 Requires: xmms mplayer
